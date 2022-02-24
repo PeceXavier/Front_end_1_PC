@@ -1,0 +1,55 @@
+h1 {
+    color: red;
+    font-size: 42px;
+    font-weight: bold;
+
+}
+
+nav {
+    text-decoration: none;
+    
+
+}
+
+body {
+    background-color: black;
+
+
+}
+
+* {
+    color: white;
+    background-color: 0;
+
+}
+
+#banner {
+background-image: url("https://sanatoriogeek.com/wp-content/uploads/2021/08/20210824_163541.png");
+height: 800px;
+background-size: cover;
+background-position: center;
+
+}
+
+.banner-text h2 {
+background-color: rgba(0, 0, 255, 0.5);
+text-align: center;
+
+}
+
+.sub__titulo {
+color: blue;
+background-color: beige;
+text-align: center;
+
+}
+
+img {
+width: 300px;
+
+}
+
+.filme__infos li {
+color: magenta;
+
+}
