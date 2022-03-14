@@ -1,24 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 * {
 box-sizing: border-box;
 padding: 0px;
 margin: 0px;
+font-family: "roboto", Arial, Helvetica, sans-serif
 }
 
-.card__one {
-background-color: black;
-display: flex;
-flex-direction: row;
-justify-content:space-evenly;
-align-items: flex-end;
+header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 15px;
+    padding-left: 35px;
 }
 
-.card__list__d {
-color: white;
 
-display: flex;
-flex-direction: row;
-justify-content: end;
-align-items: center;
-gap: 15px;
-  
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+
+nav li {
+    list-style: none;
+    cursor: pointer;
+    color: #F3F3F3;
+    font-size: 24px;
+    padding-right: 35px;
+}
+
+section {
+    background-color: #e2dfdfbe;
+    display: flex;
+    justify-content: center; 
+}
+
+.conteiner_main {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.conteiner_1 {
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.conteiner_1 h2 {
+    color: #ff0000;
+    height: 600px;
+    width: 900px;
+}
+
+.conteiner_1 span {
+    color: #FFFFFF;
+}
+
+.conteiner_2 {
+    background-color: #FFFFFF;
+    border-radius: 10px; 
+    height: 600px;
+    width: 900px;
+}
+
+.cardapio_title {
+    text-align: center;
+    color: #ff0000;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.conteiner_2a {
+    display: flex;
+    margin: 150px;
+    justify-content: space-between;
+    margin-top: 13%;
+}
+
+.card_list_o {
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.conteiner_2b img {
+    height: 200px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 15px;
+    padding-right: 35px;
+}
+
+.card_list_bottom {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 15px;
 }
