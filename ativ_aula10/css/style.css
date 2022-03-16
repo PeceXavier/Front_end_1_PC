@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+.discont nav {
+  display: flex;
+  height: 38px;
+  background: #1ed6b4;
+  padding-left: 10px;
+  align-items: center;
+  font-size: 0.938rem;
+  line-height: 18px;
+  
+}
+
+
+.title h1 {
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+  height: 101px;
+  background: #036eac;
+  box-shadow: 0px 15px 7px rgba(0, 0, 0, 0.25);
+  top: 0;
+  font-size: 2.5rem;
+  line-height: 47px;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 125px; 
+  margin-top: 125px;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+
+.card_bodyBatman {
+  background-image: url('../img/BackgroundBatman.png');
+  background-repeat: no-repeat;
+  background-color: #F3F3F3;
+  height: 555px;
+  width: 375px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.25);
+  gap: 17px;
+}
+
+
+.card_bodyArlequina {
+  background-image: url('../img/BackgroundArlequina.png');
+  background-repeat: no-repeat;
+  background-color: #F3F3F3;
+  height: 555px;
+  width: 375px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.25);
+  gap: 14px;
+}
+
+.card_bodysuperman {
+  background-image: url('../img/backgroundsuperman.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #F3F3F3;
+  height: 555px;
+  width: 375px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.25);
+  gap: 10px;
+}
+
+.card_bodymulhermaravilha {
+  background-image: url('../img/backgroundmulhermaravilha.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #F3F3F3;
+  height: 555px;
+  width: 375px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.card_heart {
+  margin-right: 280px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+.card_description {
+  margin: 20px; 
+}
+
+
+ .card_perfil img {
+   border-radius: 50%;
+   margin-top: 90px;   
+ }
+
+
+ .card_butom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:#00669f;
+   margin-left: 100px;
+   margin-right: 100px;
+   height: 40px;
+   color: #F3F3F3;
+   cursor: pointer;
+ }
+
+ footer  {
+    background-color: #00669f;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    color: #F3F3F3;
+ }
+
+ @media {
+   
+ }
