@@ -124,8 +124,6 @@ main {
   color: #f3f3f3;
   cursor: pointer;
 }
-
-<<<<<<< HEAD
 footer {
   background-color: #00669f;
   height: 50px;
@@ -151,29 +149,3 @@ footer {
 a .botao_adicionar {
   text-decoration: none;
 }
-=======
- 
-
-
-
- .card_butom {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color:#00669f;
-   margin : 0 100px 20px 100px;
-   
-   height: 40px;
-   color: #F3F3F3;
-   cursor: pointer;
- }
-
- footer  {
-    background-color: #00669f;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    padding-left: 35px;
-    color: #F3F3F3;
- }
->>>>>>> 05cd9b5e296a9e1df75e44bfa0d3b12031aad22a
