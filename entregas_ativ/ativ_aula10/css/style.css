@@ -19,7 +19,7 @@ body {
   background: #1ed6b4;
   padding-left: 10px;
   align-items: center;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 18px;
   
 }
@@ -33,7 +33,7 @@ body {
   background: #036eac;
   box-shadow: 0px 15px 7px rgba(0, 0, 0, 0.25);
   top: 0;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 47px;
 }
 
