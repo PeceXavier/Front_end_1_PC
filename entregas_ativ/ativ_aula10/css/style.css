@@ -32,6 +32,26 @@ body {
   line-height: 47px;
 }
 
+.cadastro {
+  background-color: #012941;
+  display: flex;
+  align-items:center;
+  justify-content: right;
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+
+  
+  
+}
+.cadastro li {
+  color: white;
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
 main {
   display: flex;
   justify-content: center;
