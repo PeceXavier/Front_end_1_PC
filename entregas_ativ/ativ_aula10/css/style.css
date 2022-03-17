@@ -39,17 +39,16 @@ body {
   justify-content: right;
   height: 40px;
   width: 100%;
-  padding: 10px;
-
+  padding-right:30px;
+  
   
   
 }
-.cadastro li {
+.cad {
   color: white;
-  display: inline;
-  padding: 10px;
-  margin: 10px;
-  
+  display: flex;
+  gap: 25px;
+  list-style: none;
 }
 
 main {
