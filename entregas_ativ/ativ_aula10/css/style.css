@@ -39,9 +39,7 @@ body {
   justify-content: right;
   height: 40px;
   width: 100%;
-  padding-right:30px;
-  
-  
+  padding-right:30px;  
   
 }
 .cad {
@@ -179,13 +177,21 @@ a .botao_adicionar {
   text-decoration: none;
 }
 @media ( max-width: 460px){
+
+  .cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}}
+}
+}
 @media (max-width: 768px){
+  
   main {
   display: flex;
   flex-wrap: wrap;
