@@ -5,6 +5,10 @@
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -30,6 +34,7 @@ body {
   top: 0;
   font-size: 40px;
   line-height: 47px;
+  color: white;
 }
 
 .cadastro {
