@@ -4,6 +4,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+
 }
 .discont h3 {
   display: flex;
@@ -29,6 +31,8 @@
   top: 0;
   font-size: 40px;
   line-height: 47px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: white;
 }
 .formulario{
   margin: auto;
@@ -43,7 +47,7 @@
 }
 .formulario legend{
   font-size: 3rem;
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 700;
 letter-spacing: 0em;
@@ -104,7 +108,7 @@ input[type=reset],[type=submit]{
   width: 10rem;
   height: 2rem;
   border-radius: 23.010988235473633px;
-  font-family: Karla;
+  font-family: "Karla", Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-style: normal;
   letter-spacing: 0em;
@@ -123,4 +127,5 @@ input[type=reset],[type=submit]{
 legend{
  display: flex;
  justify-content: left;
+ font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
